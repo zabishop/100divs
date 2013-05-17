@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>zackBishop.dev</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="assets/styles/indexStylesheet.css">
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/test.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="headerContentWrapper">
+        <h1>
+            zackBishop.dev
+        </h1>
+
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li class="aboutLink">
+            <a href="#">about</a>
+        </li>
+
+        <!--<li class="contactLink">
+            <a href="#">contact</a>
+        </li>-->
+        <li class="projectLink">
+            <a href="#">projects</a>
+        </li>
+        <!--<li>
+            <a>blog</a>
+        </li>
+        <li>
+            <a>friends</a>
+        </li> -->
+        <li>
+            <a href="assets/docs/ZackBishopWebDevResume.pdf" download="zackBishopResume.pdf">resume</a>
+        </li>
+        <!--<li>
+            <a>messing 'round</a>
+        </li> -->
+        <li>
+            <a href="#" onclick="goURL('http://facebook.com/zbishop')"><img
+                    src="assets/images/chicklet_facebook_v2.png"></a>
+        </li>
+        <li>
+            <a href="#" onclick="goURL('http://www.linkedin.com/pub/zachary-bishop/5a/2a4/318/')"><img
+                    src="assets/images/linkedIn.png"></a>
+        </li>
+        <li>
+            <a href="#" onclick="goURL('https://github.com/zabishop')"><img src="assets/images/github.png"></a>
+        </li>
+        <!--<li>
+           <a>flickr</a>
+       </li>-->
+    </ul>
+</nav>
+<div class="mainContentWrapper">
+
+    <div class="projectPanel">
+        <div class="subPanel">
+            <a href="http://paramountapparel.com/">
+                <div class="subPanelHead">
+
+                    <h2>Paramount Apparel</h2>
+
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="subPanelBody">
+
+                    <img src="assets/images/paramountApparel.gif">
+                    <img class="imageOverlay" src="assets/images/Crumpled-paper-texture.png">
+
+
+                    <div class="rightTag"></div>
+                    <div class="rightTagLine rotateRightTag">
+                        Now <br/>
+                        Live!
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="subPanel">
+            <a href="http://freckleinteractive.com/simpleStories/ons/proto/#screen/1">
+                <div class="subPanelHead">
+                    <h2>clearXchange Prototype</h2>
+
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="subPanelBody">
+
+                    <img src="assets/images/bankApp.gif">
+                    <img class="imageOverlay" src="assets/images/Crumpled-paper-texture.png">
+
+                    <div class="oval">
+                        <div>Best viewed on mobile</div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+        <div class="subPanel">
+            <a href="http://freckleinteractive.com/theresaneil/lls/homePage/">
+                <div class="subPanelHead">
+                    <h2>LLS of Canada</h2>
+
+                    <h3>HTML/CSS/JS/jQuery</h3>
+                </div>
+                <div class="subPanelBody">
+
+
+                    <img src="assets/images/LLS.gif">
+                    <img class="imageOverlay" src="assets/images/Crumpled-paper-texture.png">
+
+
+                    <div class="leftTag"></div>
+                    <div class="leftTagLine rotateLeftTag">
+                        Responsive!
+                    </div>
+                    <div class="rightTag"></div>
+                    <div class="rightTagLine rotateRightTag">
+                        Live<br/>
+                        soon!
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="subPanel">
+            <a href="projectPages/stl_br.html">
+                <div class="subPanelHead">
+                    <h2>STL Brew Review</h2>
+
+                    <h3>HTML5/CSS3/PhoneGap</h3>
+                </div>
+                <div class="subPanelBody">
+
+                    <img src="assets/images/stl_br.gif">
+                    <img class="imageOverlay" src="assets/images/Crumpled-paper-texture.png">
+
+
+                    <div class="oval">
+                        Still in dev<br/>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="aboutPanel">
+        <br/>
+        <br/>
+
+        <p>
+            Unlike most, my goal isn't a pay check. <br/>
+            <br/>
+            <span>I strive for growth.</span><br>
+            <br/>
+            I want to be the best at what I do. <br/>
+            <span>And I want to do it working for you.</span>
+        </p>
+        <br/>
+
+        <p>Skills:</p>
+        <ul>
+            <li><span>HTML/HTML5</span></li>
+            <li><span>CSS/CSS3</span></li>
+            <li><span>JS/jQuery</span></li>
+            <li><span>Responsive web design</span></li>
+            <li><span>Cross Browser Testing</span></li>
+        </ul>
+
+        <!--<p>
+            <span>HTML</span>, <span>CSS</span>, and <span>JS</span> are my passions.
+        </p>
+        <p>Skilled at: <span>Responsive web design</span> <span>Cross-Browser Testing</span></p>
+        <p>Exposure to: <span>PhoneGap</span>, <span>Ruby on Rails</span>, <span>C#</span>, <span>MonoTouch</span></p>
+        <p>Misc.:<span>Adobe CS 6</span>, <span>Agile Methodologies</span></p> -->
+    </div>
+    <div class="contactPanel">
+        <br>
+        <br>
+        <br>
+        <ul>
+            <dt>
+            <p>Email:</p></dt>
+            <dd onclick="goURL('mailto:zabdev@gmail.com')">
+                <p><span>zabdev@gmail.com</span></p></dd>
+            <dt>
+            <p>phone:</p></dt>
+            <dd><p><span>765.265.4693</span></p></dd>
+
+        </ul>
+    </div>
+</div>
+<footer>
+    Obligatory footer.
+</footer>
+</body>
+</html>

@@ -1,0 +1,389 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+h1, h2, h3, h4, h5, h6, {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    font-weight: lighter;
+}
+
+h1 {
+    border-radius: 10px;
+    font-family: courier, serif;
+    color: white;
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 5px;
+    color: black;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-block;
+    color: #2f4f4f;
+    margin-left: 5px;
+}
+
+p {
+    font-family: courier, serif;
+    text-align: center;
+    margin: 30px 20px 30px 20px;
+    font-size: 25px;
+    color: #696969;
+}
+p span {
+    color: orange;
+    font-weight: bolder;
+}
+
+li span {
+    color: orange;
+    font-family: courier, serif;
+    line-height: .875;
+    font-size: 1.5;
+}
+
+nav {
+    width: 900px;
+    background: orange;
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+nav ul li {
+
+    cursor: pointer;
+    margin: 0 10px;
+    height: 25px;
+    display: inline-table;
+    vertical-align: middle;
+}
+
+nav ul li a img {
+    position: relative;
+    top: 2px;
+}
+
+body {
+    width: 100%
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: #cccccc;
+}
+
+header {
+    width: 900px;
+    background: orange;
+    margin: 15px auto;
+
+    font-size: 80px;
+    border-radius: 10px;
+}
+
+
+.mainContentWrapper {
+    height: 520px;
+    width: 900px;
+    background: white;
+    margin: 15px auto 30px auto;
+    position: relative;
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+}
+.projectDetailsWrapper {
+    min-height: 520px;
+    width: 900px;
+    background: white;
+    margin: 15px auto 30px auto;
+    position: relative;
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+    text-align: center;
+}
+.projectDetailsWrapper h2 {
+    font-size: 1.75em;
+    margin-top: 20px;
+}
+.projectDetailsWrapper p {
+    text-align: left;
+}
+
+.projectDetailsWrapper img {
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+}
+
+.projectDetailsWrapper a {
+    color: #666666;
+    font-size: 1.5em;
+}
+.projectDetailsWrapper img:last-child {
+    margin-bottom: 20px;
+}
+.aboutContentWrapper {
+    height: 520px;
+    width: 900px;
+    background: white;
+    margin: 0 auto;
+}
+
+.subPanel {
+    width: 48%;
+    margin: 10px 0% 0px 1.25%;
+    float: left;
+    overflow: hidden;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.subPanel:hover .subPanelHead {
+    background: orange;
+}
+
+.subPanel:hover {
+    -moz-box-shadow: 0px 0px 24px orange;
+    -webkit-box-shadow: 0px 0px 24px orange;
+    box-shadow: 0px 0px 24px orange;
+}
+
+.subPanelHead {
+    width: 100%;
+    height: 30px;
+    color: #2f4f4f;
+   background: #cccccc;
+    margin: 0 auto;
+}
+
+.subPanelBody {
+    width: 100%;
+    height: 215px;
+    position: relative;
+}
+
+.subPanel:hover a .subPanelBody .rightTag {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid orange;
+    border-left: 100px solid transparent;
+    z-index: 9;
+}
+
+.subPanel:hover .subPanelBody .leftTag {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid orange;
+    border-right: 100px solid transparent;
+    z-index: 9;
+}
+
+.subPanel:hover .subPanelBody .rightTagLine {
+    position: absolute;
+    bottom: 23px;
+    right: 13px;
+    z-index: 10;
+    color: white;
+}
+
+.subPanel:hover .subPanelBody .leftTagLine {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: -5px;
+    z-index: 10;
+    color: white;
+}
+
+.leftTagLine {
+    display: none;
+}
+
+.subPanelBody img {
+    width: 100%;
+}
+
+.subPanelBody .imageOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.subPanelBody:hover .oval {
+    position: absolute;
+    top: 55px;
+    left: 115px;
+    width: 200px;
+    height: 100px;
+    background: orange;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+    color: white;
+}
+.subPanelBody:hover .oval div {
+    position: relative;
+    top: 25px;
+    line-height: 1em;
+}
+
+.sideBar {
+    width: 150px;
+    background: #696969;
+    float: right;
+    height: 520px;
+}
+
+.rotateLeftTag {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 1);
+}
+
+.rotateRightTag {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 1);
+}
+
+
+footer {
+    width: 900px;
+    height: 35px;
+    background: orange;
+    margin: 0 auto 35px auto;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 24px grey;
+    -webkit-box-shadow: 0px 0px 24px Grey;
+    box-shadow: 0px 0px 24px grey;
+}
+
+ul li a img{
+    width: 25px;
+    height: 25px;
+}
+.projectPanel, .aboutPanel, .contactPanel {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 520px;
+    z-index: 1;
+    color: black;
+    display: none;
+}
+
+.projectLink, .contactLink, .aboutLink {
+
+}
+
+.activePanel {
+    display: block;
+}
+
+.activeLink a {
+    color: grey;
+}
+
+a {
+    color: white;
+}
+
+ul li {
+    text-align: center;
+    line-height: 20px;
+}
