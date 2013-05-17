@@ -185,6 +185,10 @@ header {
 .projectDetailsWrapper p {
     text-align: left;
 }
+.projectDetailsWrapper p a{
+    color: #666666;
+    font-size: 1em;
+}
 
 .projectDetailsWrapper img {
     -moz-box-shadow: 0px 0px 24px grey;
