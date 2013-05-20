@@ -1,20 +1,8 @@
 $(document).ready (function(){
-    $(".projectPanel").addClass("activePanel");
+    $(".projectList").addClass("activePanel");
     $(".projectLink").addClass("activeLink")
 })
-/*$(function () {
 
- $(".testLink").hover(
- function () {
- $(this).toggleClass("active")
- },
- function () {
- $(this).toggleClass("active")
- }
- )
-
-
- });*/
 $(function () {
     $(".aboutLink").bind("click", highlightAbout);
     $(".projectLink").bind("click", highlightProject);

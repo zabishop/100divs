@@ -3,7 +3,7 @@
 <head>
     <title>STL Brew Review Details</title>
 
-    <link rel="stylesheet" type="text/css" href="../assets/styles/indexStylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/indexStylesheet.css">
 
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/test.js"></script>
@@ -13,6 +13,18 @@
 
 <header>
     <div class="headerContentWrapper">
+        <div id="ray0" class="ray"></div>
+        <div id="ray1" class="ray"></div>
+        <div id="ray2" class="ray"></div>
+        <div id="ray3" class="ray"></div>
+        <div id="ray4" class="ray"></div>
+        <div id="ray5" class="ray"></div>
+        <div id="ray6" class="ray"></div>
+
+        <div id="ray7" class="ray"></div>
+        <div id="ray8" class="ray"></div>
+        <div id="ray9" class="ray"></div>
+        <div id="ray10" class="ray"></div>
         <h1>
             zackBishop.dev
         </h1>
@@ -46,10 +58,10 @@
     </ul>
 </nav>
 
-<div class="projectDetailsWrapper">
+<div class="mainContentWrapper">
     <h2>STL Brew Review</h2>
 
-    <div class="projectDescription">
+    <div class="contentPanel">
         <p>This is project is my first venture into mobile development utilizing the PhoneGap/Cordova framework.
             Currently, it is still in development.</p>
 
@@ -60,31 +72,26 @@
            <img src="../assets/images/screen1.jpg">
         <p>When a user selects a brewery, the app retrieves the brewery's id from the item's data attribute, queries the
             array for the associated object, and passes the retrieved data to another mustache template. </p>
-        <img src="../assets/images/screen2.jpg">
+        <img class="centeredImage" src="../assets/images/screen2.jpg">
         <p>
             The details screen for each brewery is pretty straight forward; mostly a number of links that the user can
             use to find more information about the brewery. However, an important feature to note is the "Beer" link.
         </p>
-        <img src="../assets/images/screen3.jpg">
+        <img class="centeredImage" src="../assets/images/screen3.jpg">
         <p>
             When the beer link is clicked, the "short_name" attribute of the brewery's object is passed to function that
             generates a URL. This URL is then utilized to make a second XMLHttpRequest that retrieves and parses a JSON
             file that contains all the details of each beer. If it exists, this data is then sent to yet another
             mustache template that generates a list of beers for that brewery.
         </p>
-        <img src="../assets/images/screen4.jpg">
+        <img class="centeredImage" src="../assets/images/screen4.jpg">
         <p>
             If this data <i>does not</i> exist --
             which is possible since the site that this app pulls from has not been fully populated -- another (very
             basic) mustache template is render; one that merely alerts the user that this brewery does not have any
             beers listed.
         </p>
-        <img src="../assets/images/screen5.jpg"><br>
-        <br>
-        <br>
-        <br>
-        <a href="../index.html">back to projects</a>
-        <br>
+        <img class="centeredImage" src="../assets/images/screen5.jpg"><br>
         <br>
         <br>
         <br>

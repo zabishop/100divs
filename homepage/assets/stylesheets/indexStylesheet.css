@@ -1,0 +1,597 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, ../sass/indexStylesheet.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 29, ../sass/indexStylesheet.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../sass/indexStylesheet.scss */
+body {
+  line-height: 1;
+}
+
+/* line 37, ../sass/indexStylesheet.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 41, ../sass/indexStylesheet.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 46, ../sass/indexStylesheet.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 51, ../sass/indexStylesheet.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*///////////////////////////////////////////////////////////*/
+/* line 60, ../sass/indexStylesheet.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "gill sans", Palatino, serif;
+  color: white;
+  font-weight: lighter;
+}
+
+/* line 66, ../sass/indexStylesheet.scss */
+h1 {
+  border-radius: 10px;
+  font-family: "gill sans", courier, serif;
+  color: black;
+}
+
+/* line 72, ../sass/indexStylesheet.scss */
+header h1 {
+  position: absolute;
+  z-index: 12;
+}
+
+/* line 77, ../sass/indexStylesheet.scss */
+h2 {
+  font-size: 1.75em;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+  text-align: center;
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* line 89, ../sass/indexStylesheet.scss */
+h3 {
+  font-family: "gill sans", courier, serif;
+  font-size: 18px;
+  line-height: 30px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+}
+
+/* line 98, ../sass/indexStylesheet.scss */
+h4 {
+  font-size: 14px;
+  font-family: "gill sans", courier, serif;
+  line-height: 22px;
+  display: inline-block;
+  color: #2f4f4f;
+  margin-left: 5px;
+}
+
+/* line 107, ../sass/indexStylesheet.scss */
+p {
+  font-family: "verdana", courier, serif;
+  color: #696969;
+  font-weight: lighter;
+}
+
+/* line 112, ../sass/indexStylesheet.scss */
+p span {
+  color: orange;
+  font-weight: bolder;
+}
+
+/* line 117, ../sass/indexStylesheet.scss */
+li span {
+  color: orange;
+  font-family: "gill sans", courier, serif;
+  line-height: .875;
+  font-size: 1.5;
+}
+
+/* line 124, ../sass/indexStylesheet.scss */
+nav {
+  width: 900px;
+  background: #eee;
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 134, ../sass/indexStylesheet.scss */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+/* line 140, ../sass/indexStylesheet.scss */
+nav ul li {
+  cursor: pointer;
+  margin: 0 10px;
+  height: 25px;
+  display: inline-table;
+  vertical-align: middle;
+}
+
+/* line 149, ../sass/indexStylesheet.scss */
+nav ul li a img {
+  position: relative;
+  top: 2px;
+}
+
+/* line 154, ../sass/indexStylesheet.scss */
+body {
+  width: 100%;
+}
+
+/* line 158, ../sass/indexStylesheet.scss */
+html {
+  width: 100%;
+  height: 100%;
+  background: #cccccc;
+}
+
+/* line 164, ../sass/indexStylesheet.scss */
+header {
+  width: 85%;
+  display: block;
+  background: #eee;
+  margin: 25px auto 0 auto;
+  font-size: 80px;
+  height: 90px;
+  position: relative;
+  overflow: hidden;
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+}
+
+/* line 179, ../sass/indexStylesheet.scss */
+.mainContentWrapper {
+  display: block;
+  width: 85%;
+  background: white;
+  margin: 0 auto;
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+}
+
+/* line 189, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper {
+  width: 85%;
+  background: white;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+  text-align: center;
+}
+
+/* line 200, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper ul {
+  width: 33%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 206, ../sass/indexStylesheet.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 209, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper ul li {
+  text-align: left;
+}
+
+/* line 213, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper ul li p {
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 220, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper p {
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.25em;
+  width: 66%;
+  padding: 2%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  font-weight: 100;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+/* line 233, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper p a {
+  color: #666666;
+  font-size: 1em;
+  font-family: "gill sans", courier, serif;
+}
+
+/* line 239, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper img {
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+}
+
+/* line 245, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper a {
+  color: #666666;
+  font-size: 1.5em;
+}
+
+/* line 249, ../sass/indexStylesheet.scss */
+.projectDetailsWrapper img:last-child {
+  margin-bottom: 20px;
+}
+
+/* line 252, ../sass/indexStylesheet.scss */
+.aboutContentWrapper {
+  height: 520px;
+  width: 900px;
+  background: white;
+  margin: 0 auto;
+}
+
+/* line 259, ../sass/indexStylesheet.scss */
+.projectPanel {
+  width: 48%;
+  margin: 15px auto 0 auto;
+  overflow: hidden;
+  display: block;
+  background: white;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+/* line 269, ../sass/indexStylesheet.scss */
+.projectPanel:hover .projectPanelHeadline {
+  background: orange;
+}
+
+/* line 273, ../sass/indexStylesheet.scss */
+.projectPanel:hover {
+  -moz-box-shadow: 0px 0px 24px orange;
+  -webkit-box-shadow: 0px 0px 24px orange;
+  box-shadow: 0px 0px 24px orange;
+}
+
+/* line 279, ../sass/indexStylesheet.scss */
+.projectPanelHeadline {
+  width: 100%;
+  height: 30px;
+  color: #2f4f4f;
+  background: #eee;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+}
+
+/* line 289, ../sass/indexStylesheet.scss */
+.projectPanelDetails {
+  width: 100%;
+  position: relative;
+}
+
+/* line 294, ../sass/indexStylesheet.scss */
+.projectPanel:hover a .projectPanelDetails .rightTag {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid orange;
+  border-left: 100px solid transparent;
+  z-index: 9;
+}
+
+/* line 305, ../sass/indexStylesheet.scss */
+.projectPanel:hover .projectPanelDetails .leftTag {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid orange;
+  border-right: 100px solid transparent;
+  z-index: 9;
+}
+
+/* line 316, ../sass/indexStylesheet.scss */
+.projectPanel:hover .projectPanelDetails .rightTagLine {
+  position: absolute;
+  bottom: 23px;
+  right: 13px;
+  z-index: 10;
+  color: white;
+}
+
+/* line 324, ../sass/indexStylesheet.scss */
+.projectPanel:hover .projectPanelDetails .leftTagLine {
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  left: -5px;
+  z-index: 10;
+  color: white;
+}
+
+/* line 333, ../sass/indexStylesheet.scss */
+.leftTagLine {
+  display: none;
+}
+
+/* line 337, ../sass/indexStylesheet.scss */
+.projectPanelDetails img {
+  width: 100%;
+}
+
+/* line 340, ../sass/indexStylesheet.scss */
+.rotateLeftTag {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 1);
+}
+
+/* line 348, ../sass/indexStylesheet.scss */
+.rotateRightTag {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 1);
+}
+
+/* line 356, ../sass/indexStylesheet.scss */
+#ray0 {
+  background-color: #666666;
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  z-index: 10;
+}
+
+/* line 365, ../sass/indexStylesheet.scss */
+#ray1 {
+  background-color: #707070;
+  transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+  z-index: 9;
+}
+
+/* line 373, ../sass/indexStylesheet.scss */
+#ray2 {
+  background-color: #7a7a7a;
+  transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  z-index: 8;
+}
+
+/* line 383, ../sass/indexStylesheet.scss */
+#ray3 {
+  background-color: #848484;
+  transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  z-index: 7;
+}
+
+/* line 392, ../sass/indexStylesheet.scss */
+#ray4 {
+  background-color: #8e8e8e;
+  transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  z-index: 6;
+}
+
+/* line 400, ../sass/indexStylesheet.scss */
+#ray5 {
+  background-color: #999999;
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  z-index: 5;
+}
+
+/* line 408, ../sass/indexStylesheet.scss */
+#ray6 {
+  background-color: #a3a3a3;
+  transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  z-index: 4;
+}
+
+/* line 415, ../sass/indexStylesheet.scss */
+#ray7 {
+  background-color: #adadad;
+  transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  z-index: 3;
+}
+
+/* line 423, ../sass/indexStylesheet.scss */
+#ray8 {
+  background-color: #b7b7b7;
+  transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  z-index: 2;
+}
+
+/* line 430, ../sass/indexStylesheet.scss */
+#ray9 {
+  background-color: #c1c1c1;
+  transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+  z-index: 1;
+}
+
+/* line 437, ../sass/indexStylesheet.scss */
+#ray10 {
+  background-color: #cccccc;
+  transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  z-index: 0;
+}
+
+/* line 446, ../sass/indexStylesheet.scss */
+header .ray {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 102%;
+  height: 15px;
+}
+
+/* line 457, ../sass/indexStylesheet.scss */
+footer {
+  width: 85%;
+  height: 55px;
+  padding-top: 25px;
+  background: #eee;
+  margin: 0 auto 45px auto;
+  color: #666;
+  text-align: center;
+  line-height: 35px;
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+}
+
+/* line 471, ../sass/indexStylesheet.scss */
+nav {
+  width: 85%;
+}
+
+/* line 475, ../sass/indexStylesheet.scss */
+nav ul li a {
+  text-decoration: none;
+}
+
+/* line 479, ../sass/indexStylesheet.scss */
+nav ul li a img {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 484, ../sass/indexStylesheet.scss */
+.mainContentWrapper .contentPanel {
+  width: 100%;
+  z-index: 1;
+  color: black;
+  height: inherit;
+  padding: 15px 0px;
+  text-align: center;
+}
+/* line 491, ../sass/indexStylesheet.scss */
+.mainContentWrapper .contentPanel p {
+  margin: 0 35px;
+  line-height: 1.25;
+  text-align: left;
+}
+/* line 496, ../sass/indexStylesheet.scss */
+.mainContentWrapper .contentPanel img.centeredImage {
+  -moz-box-shadow: 0px 0px 24px grey;
+  -webkit-box-shadow: 0px 0px 24px Grey;
+  box-shadow: 0px 0px 24px grey;
+  margin: 25px 0;
+}
+/* line 502, ../sass/indexStylesheet.scss */
+.mainContentWrapper .contentPanel p.smallText {
+  font-size: .75em;
+  width: 65%;
+  margin: 0 auto;
+}
+
+/* line 508, ../sass/indexStylesheet.scss */
+.mainContentWrapper ul.contentPanel li {
+  width: 325px;
+  margin: 15px;
+  display: inline-block;
+  height: 300px;
+  vertical-align: top;
+}
+/* line 515, ../sass/indexStylesheet.scss */
+.mainContentWrapper ul.contentPanel li img {
+  height: 100%;
+  width: auto;
+}
+
+/* line 521, ../sass/indexStylesheet.scss */
+nav ul li a {
+  font-size: 1em;
+  color: #666;
+  font-family: "gill sans", courier, serif;
+  text-decoration: none;
+}
+
+/* line 528, ../sass/indexStylesheet.scss */
+.activeLink a {
+  color: orange;
+}
