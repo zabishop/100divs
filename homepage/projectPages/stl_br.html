@@ -34,9 +34,6 @@
 
 <nav>
     <ul>
-        <li class="aboutLink">
-            <a href="#">about</a>
-        </li>
         <li>
             <a href="../index.html">projects</a>
         </li>
@@ -44,15 +41,19 @@
             <a href="../assets/docs/ZackBishopWebDevResume.pdf" download="zackBishopResume.pdf">resume</a>
         </li>
         <li>
-            <a href="#" onclick="goURL('http://facebook.com/zbishop')"><img
-                    src="../assets/images/chicklet_facebook_v2.png"></a>
+            <a href="#" onclick="goURL('http://facebook.com/zbishop')">
+                <img src="../assets/images/chicklet_facebook_v2.png">
+            </a>
         </li>
         <li>
-            <a href="#" onclick="goURL('http://www.linkedin.com/pub/zachary-bishop/5a/2a4/318/')"><img
-                    src="../assets/images/linkedIn.png"></a>
+            <a href="#" onclick="goURL('http://www.linkedin.com/pub/zachary-bishop/5a/2a4/318/')">
+                <img src="../assets/images/linkedIn.png">
+            </a>
         </li>
         <li>
-            <a href="#" onclick="goURL('https://github.com/zabishop')"><img src="../assets/images/github.png"></a>
+            <a href="#" onclick="goURL('https://github.com/zabishop')">
+                <img src="../assets/images/github.png">
+            </a>
         </li>
 
     </ul>
@@ -66,33 +67,29 @@
             Currently, it is still in development.</p>
 
         <p>The inner workings of this app are pretty straight forward. When first loaded, the app makes an
-            XMLHttpRequest to stlbrewreview.com/breweries.json. The app then parses the JSON string for the details of
-            each brewery, assigning each as an object in an array. This array is then passed them to a mustache template
-            which is rendered for each entity in the array. </p>
-           <img src="../assets/images/screen1.jpg">
-        <p>When a user selects a brewery, the app retrieves the brewery's id from the item's data attribute, queries the
-            array for the associated object, and passes the retrieved data to another mustache template. </p>
+            XMLHttpRequest to stlbrewreview.com/breweries.json, parses the JSON, and assigns the details to an array.
+            This array is then passed to a mustache template.</p>
+        <img class="centeredImage" src="../assets/images/screen1.jpg">
+
+        <p>When a user selects a brewery, the app queries the
+            array for the associated brewery object and passes the retrieved data to another mustache template. </p>
         <img class="centeredImage" src="../assets/images/screen2.jpg">
+
         <p>
-            The details screen for each brewery is pretty straight forward; mostly a number of links that the user can
-            use to find more information about the brewery. However, an important feature to note is the "Beer" link.
+            The details screen for each brewery is pretty straight forward; mostly, it's a list of links that directs the user toward more information about that particular brewery.
+        </p>
+        <p>
+            Bet you can't guess what the "Beer" link does when you click it?  That's right!  It queries for "beer", parses, and renders another mustache template. You = smart.
+        </p>
+        <p>
+            I don't think I need to tell you what happens when you click on a beer.
         </p>
         <img class="centeredImage" src="../assets/images/screen3.jpg">
-        <p>
-            When the beer link is clicked, the "short_name" attribute of the brewery's object is passed to function that
-            generates a URL. This URL is then utilized to make a second XMLHttpRequest that retrieves and parses a JSON
-            file that contains all the details of each beer. If it exists, this data is then sent to yet another
-            mustache template that generates a list of beers for that brewery.
-        </p>
+
+
         <img class="centeredImage" src="../assets/images/screen4.jpg">
-        <p>
-            If this data <i>does not</i> exist --
-            which is possible since the site that this app pulls from has not been fully populated -- another (very
-            basic) mustache template is render; one that merely alerts the user that this brewery does not have any
-            beers listed.
-        </p>
-        <img class="centeredImage" src="../assets/images/screen5.jpg"><br>
-        <br>
+
+        <p>That's pretty much it at the moment.  A plethora of other features will (eventually) get added.</p>
         <br>
         <br>
     </div>
